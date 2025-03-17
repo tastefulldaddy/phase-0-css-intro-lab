@@ -1,20 +1,36 @@
 /* Tag selector to select the 'body' element */
 body {
-  /* Your code here! */
+  background-color: ;
+  font-family: sans-serif;
+  background:linear-gradient(320deg,#f0c7db,#4abbdd, #10df88d2);;
+  
 }
 
 /* Tag selector to select all 'div' elements. We only have one 'div' in our HTML */
-div {
-  /* Your code here! */
+div { background-color: rgb(18, 239, 255);
+  width: 300px;
+  padding: 20px;
+  border: 1px  solid rgba(32, 236, 42, 0.829);
+  margin: 10px;
+  text-align: center;
+  
 }
 
 /* ID selector to select the element with id 'main-header' */
 #main-header {
-  /* Your code here! */
+  background-color: #e6baba;
+  font-size: 24px;
+  padding: 10px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
   color: red;
 }
 
 /* Class selector to select elements containing the class 'perspective-questions' */
 .perspective-questions {
-  /* Your code here! */
+  background-color: rgba(35, 50, 189, 0.829);
+  padding: 20px;
+  border: 1px solid #ddd;
+  line-height: 1.6;
+  text-align: center;
 }
